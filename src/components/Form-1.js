@@ -42,7 +42,8 @@ class Form extends Component{
                         onChange={this.handleUserName}
                     />
                 </div>
-
+                <h1></h1>
+                <h1></h1>
                 <div>
                     <label>Comment</label>
                     <textarea
@@ -50,7 +51,8 @@ class Form extends Component{
                         onChange={this.handleComment}
                     />
                 </div>
-
+                <h1></h1>
+                <h1></h1>
                 <div>
                     <label>Select Topic</label>
                     <select value={this.state.topic} onChange={this.handleTopic}>
@@ -60,6 +62,8 @@ class Form extends Component{
                         <option value="playwright">PlayWright</option>
                     </select>
                 </div>
+                <h1></h1>
+                <h1></h1>
                 <button type="submit">Submit Form</button>
             </form>
         )
